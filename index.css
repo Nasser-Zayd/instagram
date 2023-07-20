@@ -104,6 +104,9 @@ body {
   width: 69.7rem;
   height: 80rem;
   margin-left: 14.6rem;
+  display: flex;
+
+  flex-direction: row;
 }
 .feed {
   background-color: green;
@@ -163,7 +166,7 @@ body {
 /* feed contents  */
 .feeds-contents {
   width: 35rem;
-  height: 100rem;
+  height: 90rem;
   background-color: lightblue;
   margin-left: 7.9rem;
 }
@@ -269,6 +272,7 @@ body {
 .like-icon img {
   width: 2rem;
   height: 2rem;
+  margin-left: -5px;
 }
 .save__post img {
   width: 1.6rem;
@@ -323,6 +327,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
 }
+.content__view__comments a {
+  text-decoration: none;
+}
+
 .content__addcomment {
   display: flex;
   justify-content: space-between;
@@ -344,4 +352,97 @@ body {
   width: 35rem;
   border: 1px solid gray;
   margin-top: 1rem;
+}
+/* right side part  */
+.side {
+  width: 22rem;
+  height: 29rem;
+  background-color: red;
+  margin-top: 2.5rem;
+}
+.side__suggestion__account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 10px;
+}
+.side__left {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.side__left__profile img {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+}
+.side__left__username__user a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+.profile__user a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.profile__username a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #737373;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.side__right a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0095f6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  text-decoration: none;
+}
+/* new div for suggestion  */
+.div__suggested__foryou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: 1rem;
+}
+.see__all a {
+  text-decoration: none;
+}
+.text__suggest {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #737373;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.seeall__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+/* part suggestion 2 */
+.side__left__profile__1 img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
 }
