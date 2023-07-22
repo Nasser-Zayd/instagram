@@ -467,7 +467,7 @@ body {
 @media (max-width: 1285px) {
   .side {
     background-color: green;
-    width: 17rem;
+    width: 16rem;
     height: 29rem;
 
     margin-top: 2.5rem;
@@ -481,18 +481,177 @@ body {
   }
   .logo-dashboard-responsive img {
     display: flex;
-    margin-top: 1rem;
-    background-color: green;
+    margin-top: 2.5rem;
+    /* background-color: green; */
+    /* margin-left: 1rem; */
   }
   .dashboard-text {
     display: none;
   }
   .dashboard-container {
-    background-color: red;
+    /* background-color: red; */
     border-right: 1px solid lightgray;
     height: 39rem;
-    /* width: 4.6rem; */
+    width: 4.5rem;
+  }
+  .dashboard {
+    /* background-color: red; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+  }
+  .dashboard img {
+    margin-right: 1rem;
+  }
+  .feed-side {
+    background-color: red;
+
+    width: 69.7rem;
+    height: 80rem;
+    /* margin-left: 14.6rem; */
+    display: flex;
+    margin-left: 6rem;
+  }
+  .side {
+    background-color: green;
+    width: 23rem;
+    height: 29rem;
+
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width: 1212px) {
+  .feed-side {
+    background-color: yellow;
+
+    width: 69.7rem;
+    height: 80rem;
+    /* margin-left: 14.6rem; */
+    display: flex;
+    margin-left: 5rem;
+  }
+  .side {
+    background-color: green;
+    width: 20rem;
+    height: 29rem;
+
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width: 1149px) {
+  .feed-side {
+    background-color: blue;
+
+    /* width: 69.7rem;
+    height: 80rem;
+    /* margin-left: 14.6rem; */
+    display: flex;
+    margin-left: 16rem;
+  }
+  .side {
+    background-color: green;
+    display: none;
+    /* width: 20rem;
+    height: 29rem;
+
+    margin-top: 2.5rem; */
+  }
+  .feeds-contents {
+    width: 30rem;
+    height: 90rem;
+    background-color: yellow;
+    margin-left: 7.9rem;
+  }
+  .feed__profile {
+    width: 30rem;
+  }
+  .feed__content__upload img {
+    width: 30rem;
+  }
+  .feed__content__info {
+    width: 30rem;
+  }
+  .content__like_share {
+    width: 30rem;
+  }
+}
+@media (max-width: 1004px) {
+  .feed-side {
+    background-color: purple;
+
+    display: flex;
+    margin-left: 10rem;
+  }
+}
+@media (max-width: 914px) {
+  .feed-side {
+    background-color: black;
+
+    /* width: 69.7rem;
+    height: 80rem;
+    /* margin-left: 14.6rem; */
+    display: flex;
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 860px) {
+  .feed-side {
+    background-color: red;
+
+    display: flex;
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 828px) {
+  .feed-side {
+    background-color: rgb(71, 24, 201);
+
+    display: flex;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 798px) {
+  .feed-side {
+    background-color: rgb(14, 207, 101);
+
+    /* margin-left: 3rem; */
+  }
+  .nasser-img {
+    width: 53px;
+    height: 53px;
+    margin: 5px;
+    border-radius: 50%;
+    margin-left: 6px;
+    background: linear-gradient(rgb(231, 0, 231), rgb(255, 115, 0));
+  }
+  .nasser-img img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 2px;
+  }
+
+  .feed__profile {
+    width: 28rem;
+  }
+  .feed__content__upload img {
+    width: 28rem;
+  }
+  .feed__content__info {
+    width: 28rem;
+  }
+  .content__like_share {
+    width: 28rem;
+  }
+  .feeds-contents {
+    width: 26rem;
+    height: 90rem;
+    /* background-color: orange; */
+    /* margin-left: 7.9rem; */
+  }
+  .feed-side {
+    background-color: orange;
   }
 }
