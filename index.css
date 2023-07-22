@@ -100,7 +100,7 @@ body {
   overflow-x: hidden;
 }
 .feed-side {
-  background-color: gray;
+  background-color: #ffffff;
   width: 69.7rem;
   height: 80rem;
   margin-left: 14.6rem;
@@ -109,7 +109,7 @@ body {
   flex-direction: row;
 }
 .feed {
-  background-color: green;
+  background-color: #ffffff;
   width: 45.6rem;
   height: 100rem;
 }
@@ -167,7 +167,7 @@ body {
 .feeds-contents {
   width: 35rem;
   height: 90rem;
-  background-color: lightblue;
+  background-color: #ffffff;
   margin-left: 7.9rem;
 }
 .feeds-contents {
@@ -177,7 +177,7 @@ body {
   flex-direction: column;
 }
 .feed__profile {
-  background-color: white;
+  background-color: #ffffff;
   width: 35rem;
   height: 3.5rem;
   margin-top: 1rem;
@@ -240,7 +240,7 @@ body {
 } */
 /* like and share part */
 .content__like_share {
-  background-color: gray;
+  background-color: #ffffff;
   width: 35rem;
   height: 3.5rem;
   display: flex;
@@ -291,7 +291,7 @@ body {
   text-decoration: none;
 }
 .content__countlike {
-  background-color: peachpuff;
+  background-color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -318,7 +318,7 @@ body {
     Arial, sans-serif;
 }
 .view__comment {
-  background-color: aqua;
+  background-color: #ffffff;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -350,14 +350,14 @@ body {
 }
 .endpost__line {
   width: 35rem;
-  border: 1px solid gray;
+  border: 1px solid lightblue;
   margin-top: 1rem;
 }
 /* right side part  */
 .side {
   width: 22rem;
   height: 29rem;
-  background-color: red;
+  background-color: #ffffff;
   margin-top: 2.5rem;
 }
 .side__suggestion__account {
@@ -365,7 +365,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-color: white;
+  background-color: #ffffff;
   margin-top: 10px;
 }
 .side__left {
@@ -416,7 +416,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
   margin-top: 1rem;
 }
 .see__all a {
@@ -445,4 +445,54 @@ body {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+}
+
+/* these part is only for display or no becz of responsive part */
+.logo-dashboard-responsive img {
+  width: 1.6rem;
+  display: none;
+}
+
+/* responsive parts */
+/* first responsive side part  */
+@media (max-width: 1335px) {
+  .side {
+    background-color: red;
+    width: 19rem;
+    height: 29rem;
+
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width: 1285px) {
+  .side {
+    background-color: green;
+    width: 17rem;
+    height: 29rem;
+
+    margin-top: 2.5rem;
+  }
+}
+/* responsive dashboard side which located in right side of boday */
+@media (max-width: 1252px) {
+  .dashboard-logo {
+    background-color: red;
+    display: none;
+  }
+  .logo-dashboard-responsive img {
+    display: flex;
+    margin-top: 1rem;
+    background-color: green;
+  }
+  .dashboard-text {
+    display: none;
+  }
+  .dashboard-container {
+    background-color: red;
+    border-right: 1px solid lightgray;
+    height: 39rem;
+    /* width: 4.6rem; */
+    display: flex;
+    justify-content: flex-end;
+  }
 }
