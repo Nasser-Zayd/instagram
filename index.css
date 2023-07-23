@@ -452,6 +452,12 @@ body {
   width: 1.6rem;
   display: none;
 }
+.dashboard-container__responsive {
+  display: none;
+}
+.dashboard-container__responsivefooter {
+  display: none;
+}
 
 /* responsive parts */
 /* first responsive side part  */
@@ -607,51 +613,47 @@ body {
     background-color: rgb(71, 24, 201);
 
     display: flex;
+    margin-left: 1.5rem;
+  }
+  .feed-history {
+    background-color: red;
+    width: 42.5rem;
+    height: 8.5rem;
     margin-left: 3rem;
   }
 }
-
-@media (max-width: 798px) {
-  .feed-side {
-    background-color: rgb(14, 207, 101);
-
-    /* margin-left: 3rem; */
+/* this is part the end of responsive part  */
+@media (max-width: 775px) {
+  .feed-history {
+    background-color: blue;
+    margin-left: 1rem;
   }
-  .nasser-img {
-    width: 53px;
-    height: 53px;
-    margin: 5px;
-    border-radius: 50%;
-    margin-left: 6px;
-    background: linear-gradient(rgb(231, 0, 231), rgb(255, 115, 0));
+  .dashboard-container {
+    display: none;
   }
-  .nasser-img img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    margin: 2px;
-  }
-
-  .feed__profile {
-    width: 28rem;
-  }
-  .feed__content__upload img {
-    width: 28rem;
-  }
-  .feed__content__info {
-    width: 28rem;
-  }
-  .content__like_share {
-    width: 28rem;
-  }
-  .feeds-contents {
-    width: 26rem;
-    height: 90rem;
-    /* background-color: orange; */
-    /* margin-left: 7.9rem; */
+  .dashboard-container__responsive {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 46rem;
+    background-color: red;
+    z-index: 1;
+    position: fixed;
+    margin-left: 2px;
   }
   .feed-side {
-    background-color: orange;
+    margin-top: 4.1rem;
+  }
+  .dashboard-container__responsivefooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 46rem;
+    background-color: red;
+    z-index: 1;
+    position: fixed;
+    margin-left: 2px;
   }
 }
