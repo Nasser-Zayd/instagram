@@ -455,7 +455,7 @@ body {
 .dashboard-container__responsive {
   display: none;
 }
-.dashboard-container__responsivefooter {
+.dashboard_container_responsivefooter {
   display: none;
 }
 
@@ -636,7 +636,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 4rem;
-    width: 46rem;
+    width: 46.8rem;
     background-color: red;
     z-index: 1;
     position: fixed;
@@ -645,15 +645,16 @@ body {
   .feed-side {
     margin-top: 4.1rem;
   }
-  .dashboard-container__responsivefooter {
+  .dashboard_container_responsivefooter {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 4rem;
-    width: 46rem;
-    background-color: red;
+    height: 5rem;
+    width: 46.8rem;
+    background-color: green;
     z-index: 1;
     position: fixed;
     margin-left: 2px;
+    margin-top: 33rem;
   }
 }
