@@ -225,6 +225,9 @@ body {
 .profile__more img {
   width: 14px;
 }
+.nasser-text a{
+  color: black;
+}
 
 .feed__content__upload img {
   width: 35rem;
@@ -966,7 +969,7 @@ body {
     z-index: 1;
     position: fixed;
     /* margin-left: 2px; */
-    margin-top: 35rem;
+    /* margin-top: 35rem;
   }
   .dashboard_container_responsivefooter img {
     margin: 1.5rem;
@@ -1000,7 +1003,7 @@ body {
 .addcomment__icon__right img{
   margin-right: 5px;
 }
-
+ */
 
 
 
@@ -1023,7 +1026,7 @@ body {
     width: 25rem;
     z-index: 1;
     position: fixed;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     margin-left: 1px;
   
   }
@@ -1164,6 +1167,8 @@ body {
   /* background-color: blue; */
   height: 6rem;
   margin-top: -1rem;
+ 
+  border-bottom: 1px solid lightgray;
   /* margin-left: -0.5rem; */
 }
 .feed-history .nasser{
