@@ -1034,6 +1034,9 @@ body {
  .elon{
   display: none;
  }
+ .messi{
+  display: none;
+ }
 .header_responsive_logo img{
   width: 7rem;
   height: 1.7rem;
@@ -1044,13 +1047,13 @@ body {
 }
 
   .feed-history {
-    /* background-color: blue; */
-    width: 27rem;
+    background-color: blue;
+    width: 23rem;
     height: 7rem;
-    /* margin-top: -8px; */
-    
-
-    
+    /* margin-top: -8px; */ 
+  }
+  .header_responsive_like{
+    margin-right: 1.2rem;
   }
  .ferrai{
   display: none;
@@ -1080,8 +1083,12 @@ body {
   .feed-history {
     margin-left: 1px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
+    
+  }
+  .body-continer{
+    overflow-x: hidden;
   }
   .feeds-contents {
     /* background-color: red; */
@@ -1153,7 +1160,7 @@ body {
   /* background-color: blue; */
   height: 6rem;
   margin-top: -1rem;
-  margin-left: -0.5rem;
+  /* margin-left: -0.5rem; */
 }
 .feed-history .nasser{
   margin-top: -5px;
@@ -1170,4 +1177,8 @@ body {
   /* background-color: red; */
   width: 23rem;
 }
+.nasser-text a{
+  color: black;
+}
+ 
 }  
