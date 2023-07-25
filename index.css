@@ -1139,7 +1139,7 @@ body {
   width: 26rem;
 }
 .content__like_share{
-  width: 26rem;
+  width: 23rem;
 }
 .addcomment__icon__right img{
   margin-right: 3rem;
@@ -1150,6 +1150,10 @@ body {
   width: 2rem;
   margin-right: 8px;
    
+
+}
+.content__descripton__post{
+
 
 }
 .dashboard_icons_mobile img{
@@ -1175,7 +1179,7 @@ body {
 }
 .content__descripton__post{
   /* background-color: red; */
-  width: 23rem;
+  width: 22rem;
 }
 .nasser-text a{
   color: black;
