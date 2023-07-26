@@ -1101,7 +1101,7 @@ body {
   .feeds-contents {
     /* background-color: green; */
     width: 26rem;
-    margin-left: -5px;
+    margin-left: -3px;
     
  
   }
@@ -1199,6 +1199,8 @@ body {
 .content__addcomment{
   width: 24rem;
 }
- 
+ .feed__content__upload img{
+  width: 21.9rem;
+ }
   
 }
