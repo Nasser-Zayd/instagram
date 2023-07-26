@@ -8,6 +8,8 @@ body {
   margin: 0;
   padding: 0;
 }
+ 
+ 
 
 .dashboard {
   display: flex;
@@ -1021,7 +1023,7 @@ body {
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .dashboard-container__responsive {
     /* background-color: lightblue; */
     display: flex;
