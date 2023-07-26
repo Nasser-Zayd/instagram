@@ -166,16 +166,21 @@ body {
 /* feed contents  */
 .feeds-contents {
   width: 35rem;
-  height: 90rem;
+  height: 250rem;
   background-color: #ffffff;
   margin-left: 7.9rem;
+  /* background-color: red; */
+  
 }
 .feeds-contents {
   display: flex;
   justify-content: start;
   align-items: center;
   flex-direction: column;
+
+  
 }
+ 
 .feed__profile {
   background-color: #ffffff;
   width: 35rem;
@@ -1094,11 +1099,13 @@ body {
     overflow-x: hidden;
   }
   .feeds-contents {
-    /* background-color: red; */
+    /* background-color: green; */
     width: 26rem;
+    margin-left: -5px;
     
  
   }
+ 
   .dashboard_container_responsivefooter {
     display: flex;
     justify-content: right;
@@ -1193,4 +1200,5 @@ body {
   width: 24rem;
 }
  
-}  
+  
+}
